@@ -1,0 +1,44 @@
+﻿body {
+}
+.uuidInfo
+{
+    text-align:left;
+    margin-left: 10px;
+    margin-top: 0px;
+}
+.greetingText
+{
+    margin-top: 0px!important;
+    margin-bottom: 0px!important;
+}
+p
+{
+    margin-left:20%;
+    margin-right:20%;
+    text-align:left;
+    width: 60%;
+}
+h3 {
+    font-size: 36px!important;
+    margin-left: 20%;
+    margin-right: 20%;
+    text-align: left!important;
+    margin-top: 35px;
+}
+h4 {
+    text-align: left !important;
+    margin-top: 35px;
+    margin-left: 20%;
+}
+table, td, th{
+    border:hidden;
+    min-width:150px;
+    margin-top: 50px;
+}
+td{
+    padding-top:30px;
+}
+table{
+    width: 96%;
+    margin-left: 2%;
+}

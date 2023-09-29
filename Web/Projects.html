@@ -1,0 +1,239 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>LEEVGS</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <link href="../Style/HubStyle.css" rel="stylesheet" />
+    <link href="../Style/Portfolio.css" rel="stylesheet" />
+</head>
+<body>
+    <nav class="navbar navbar-expand-xl sticky-top bg-dark">
+        <button class="navbar-toggler" data-toggle="collapse" data-target="#collapse_target">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="collapse_target">
+            <ul class="navbar-nav white-underline">
+                <li class="nav-item">
+                    <a class="nav-link" href="/Web/Home.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/Web/Projects.html">Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/Web/AboutMe.html">About me</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <h1 class="project-h1">Personal projects</h1>
+
+    <div style="width:100%; float:left;">
+        <div style="width:100%;">
+            <div class="div3-first">
+                <a href="Projects/Networking.html">
+                    <div class="project-container">
+                        <img src="../Images/NetworkingIcon.png" class="project-image">
+                        <div style="font-size: 2rem!important" class="project-text-left">C++</div>
+                        <div style="font-size: 3rem!important" class="project-text">Networking</div>
+                        <div class="project-overlay">
+                            <img src="../Images/ProjectBackground.png" class="project-image-overlay">
+                            <div class="project-text">Exploring WinSock in C++ for Game Loop Integration. No external libraries, only default Windows headers used.</div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="div3">
+                <a href="Home.html">
+                    <div class="project-container">
+                        <img src="../Images/Vinyl.png" class="project-image">
+                        <div style="font-size: 2rem!important" class="project-text-left">Unity - C#</div>
+                        <div style="font-size: 3rem!important" class="project-text">Voteplayer</div>
+                        <div class="project-overlay">
+                            <img src="../Images/ProjectBackground.png" class="project-image-overlay">
+                            <div class="project-text">A dual program that works on Android and Windows enabling song voting for Spotify & local at parties. Utilizes C# networking to communicate with Android clients.</div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="div3">
+                <a href="Home.html">
+                    <div class="project-container">
+                        <img src="../Images/VinteccIcon.png" class="project-image">
+                        <div class="project-overlay">
+                            <img src="../Images/ProjectBackground.png" class="project-image-overlay">
+                            <div class="project-text">Exploring, porting and limit testing physics engines (Havok & Mujoco)</div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <div style="width: 100%; float: left; padding-bottom: 150px;">
+        <div style="width:100%;">
+            <div class="div3-first">
+                <a href="Home.html">
+                    <div class="project-container">
+                        <img src="../Images/CityCrawlersIcon.png" class="project-image">
+                        <div style="font-size: 2rem!important" class="project-text-left">C# - Unity</div>
+                        <div class="project-overlay">
+                            <img src="../Images/ProjectBackground.png" class="project-image-overlay">
+                            <div class="project-text">A survival/exploration game made in 3 days for the Kenney Jam 23.</div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="div3">
+                <a href="Home.html">
+                    <div class="project-container">
+                        <img src="../Images/TheCityOfExileIcon.png" class="project-image">
+                        <div style="font-size: 2rem!important" class="project-text-left">Unity - C#</div>
+                        <div style="font-size: 3rem!important" class="project-text">The city of exile</div>
+                        <div class="project-overlay">
+                            <img src="../Images/ProjectBackground.png" class="project-image-overlay">
+                            <div class="project-text">Unity-based dungeon runner project with a focus on testing Unity features and implementing basic storytelling elements.</div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="div3">
+                <a href="Home.html">
+                    <div class="project-container">
+                        <img src="../Images/FragileFrogsIcon.png" class="project-image">
+                        <div style="font-size: 2rem!important" class="project-text-left">Unity - C#</div>
+                        <div class="project-overlay">
+                            <img src="../Images/ProjectBackground.png" class="project-image-overlay">
+                            <div class="project-text">Tower defence game made in 2.5 days for the UNWRAP game jam.</div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <h1 class="project-h1">DAE projects</h1>
+
+    <div style="width: 100%; float: left;">
+        <div style="width:100%;">
+            <div class="div3-first">
+                <a href="Home.html">
+                    <div class="project-container">
+                        <img src="../Images/TronBattleTanksIcon.png" class="project-image">
+                        <div style="font-size: 2rem!important" class="project-text-left">C++</div>
+                        <div style="font-size: 3rem!important" class="project-text">Tron battle tanks</div>
+                        <div class="project-overlay">
+                            <img src="../Images/ProjectBackground.png" class="project-image-overlay">
+                            <div class="project-text">Written in bare C++ using Visual Studio for linking external libraries. Utilizes basic engine (self-written) where a lot of patterns are applied.</div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="div3">
+                <a href="Home.html">
+                    <div class="project-container">
+                        <img src="../Images/RollinRascalsIcon.png" class="project-image">
+                        <div style="font-size: 2rem!important" class="project-text-left">Unity - C#</div>
+                        <div class="project-overlay">
+                            <img src="../Images/ProjectBackground.png" class="project-image-overlay">
+                            <div class="project-text">A couch co-op game where you race against other players. Made in a semester 10h a week.</div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="div3">
+                <a href="Home.html">
+                    <div class="project-container">
+                        <img src="../Images/UnturnedIcon.png" class="project-image">
+                        <div style="font-size: 2rem!important" class="project-text-left">C++</div>
+                        <div class="project-overlay">
+                            <img src="../Images/ProjectBackground.png" class="project-image-overlay">
+                            <div class="project-text">Basic zombie game where you collect loot and try to survive in the Unturned art style.</div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+    <div style="width: 100%; float: left; padding-bottom: 150px;">
+        <div style="width:100%;">
+            <div class="div3-first">
+                <a href="Home.html">
+                    <div class="project-container">
+                        <img src="../Images/MinecraftSceneIcon.png" class="project-image">
+                        <div style="font-size: 2rem!important" class="project-text-left">CMake - C++</div>
+                        <div style="font-size: 3rem!important" class="project-text">Minecraft tool</div>
+                        <div class="project-overlay">
+                            <img src="../Images/ProjectBackground.png" class="project-image-overlay">
+                            <div class="project-text">Tool for importing .json files and exporting them to .obj. Uses correct CMake structure for optimal development.</div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="div3">
+                <a href="Home.html">
+                    <div class="project-container">
+                        <img src="../Images/RunescapeIcon.png" class="project-image">
+                        <div style="font-size: 3rem!important" class="project-text">Runescape item searcher</div>
+                        <div style="font-size: 2rem!important" class="project-text-left">C#</div>
+                        <div class="project-overlay">
+                            <img src="../Images/ProjectBackground.png" class="project-image-overlay">
+                            <div class="project-text">Search for items via the runescape API and check the current prices.</div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <h1 class="project-h1">Active projects</h1>
+
+    <div style="width:100%; float:left;">
+        <div style="width:100%;">
+            <div class="div3-first">
+                <a href="Home.html">
+                    <div class="project-container">
+                        <img src="../Images/LeapIcon.png" class="project-image">
+                        <div style="font-size: 2rem!important" class="project-text-left">C++</div>
+                        <div style="font-size: 3rem!important" class="project-text">Leap engine</div>
+                        <div class="project-overlay">
+                            <img src="../Images/ProjectBackground.png" class="project-image-overlay">
+                            <div class="project-text">3D based C++ engine made for easy development in pure C++.</div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="div3">
+                <a href="Home.html">
+                    <div class="project-container">
+                        <img src="../Images/ProtocNetworkingIcon.png" class="project-image">
+                        <div style="font-size: 2rem!important" class="project-text-left">C++ - Java</div>
+                        <div style="font-size: 3rem!important" class="project-text">Protoc networking</div>
+                        <div class="project-overlay">
+                            <img src="../Images/ProjectBackground.png" class="project-image-overlay">
+                            <div class="project-text">Using networking across multiple code languages.</div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="div3">
+                <a href="Home.html">
+                    <div class="project-container">
+                        <img src="../Images/Voteplayer2Icon.png" class="project-image">
+                        <div style="font-size: 2rem!important" class="project-text-left">C#</div>
+                        <div class="project-overlay">
+                            <img src="../Images/ProjectBackground.png" class="project-image-overlay">
+                            <div class="project-text">Reworked version of Voteplayer with vision on enabling 3D visualizations and official Spotify support.</div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>

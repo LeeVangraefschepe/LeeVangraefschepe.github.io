@@ -1,0 +1,45 @@
+﻿p {
+    text-align: left!important;
+    margin-left: 0%;
+}
+
+h2 {
+    text-align: left !important;
+    margin-bottom: 20px;
+    margin-top: 50px;
+}
+
+.project-left-side {
+    width: 50%;
+    float: left;
+    padding: 0% 10% 0% 0%;
+}
+
+.project-right-side {
+    width: 50%;
+    float: left;
+    padding: 0% 20% 0% 0%;
+}
+
+.project-width {
+    width: 100%;
+    float: left;
+    padding: 0% 10% 0% 10%;
+}
+
+.project-width-text {
+    width: 100%;
+    float: left;
+    padding: 0% 20% 0% 20%;
+}
+
+.no-style-list {
+    padding: 0;
+    list-style: none;
+}
+
+.link-button {
+    display: inline-block;
+    margin-right: 100px;
+    inline-size: 100px;
+}
