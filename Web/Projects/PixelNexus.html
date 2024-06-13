@@ -1,0 +1,97 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>LEEVGS</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <link href="../../Style/HubStyle.css" rel="stylesheet" />
+    <link href="../../Style/Portfolio.css" rel="stylesheet" />
+    <link href="../../Style/Project.css" rel="stylesheet" />
+    <link rel="icon" type="image/x-icon" href="/Images/LEEVGS.ico">
+</head>
+<body>
+    <nav class="navbar navbar-expand-xl sticky-top bg-dark">
+        <button class="navbar-toggler" data-toggle="collapse" data-target="#collapse_target">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="collapse_target">
+            <ul class="navbar-nav white-underline">
+                <li class="nav-item">
+                    <a class="nav-link" href="/Web/Index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link selected-title" href="/Web/Projects.html">Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/Web/AboutMe.html">About me</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <h1 style="margin-bottom:100px!important">Internship (Pixel-Nexus)</h1>
+    <div class="project-width">
+        <div class="project-left-side">
+            <img style="object-fit:contain; width:100%" src="../../Images/PixelNexusIcon.png">
+            <p>Internship: 2024 (18 weeks)</p>
+        </div>
+        <div class="project-right-side">
+            <h2 style="margin-top:0px">Short description</h2>
+            <p>Pixel-Nexus aims to become your technical hub to provide solutions tailormade to your needs, leaving you to create your vision without technical hassle and focus on your core business.</p>
+        </div>
+    </div>
+
+    <div class="project-width">
+        <h2>What did you do</h2>
+        <div class="project-left-side">
+            <p>I worked on five different projects during my internship, all related to plugin integration for Unreal Engine. I had the freedom to choose what I could do, which motivated me greatly to exceed my expectations and go above and beyond when designing coding systems.</p>
+        </div>
+    </div>
+
+    <div class="project-width" style="margin-bottom: 50px; margin-top: 50px">
+        <img style="object-fit:contain; width:100%" src="../../Images/Timeline internship.png">
+    </div>
+
+    <div class="project-width">
+        <div class="project-left-side">
+            <h3 style="text-align:left!important">Quest system</h3>
+            <p>There was already an existing quest system, but it worked completely differently from the one I created. I had to create a new quest system on top of the old one, which still needed to be supported and marked as deprecated. The major differences with the new system are that the quest structure has changed, data assets are used to create quest links, and typing is done with deriving instead of enum types.</p>
+        </div>
+        <div class="project-left-side">
+            <h3 style="text-align:left!important">Python</h3>
+            <p>My supervisor asked me if I could hook into the event triggered when committing something in version control. After that, he asked if I could create some scripts to verify the changes in plugins before committing.</p>
+        </div>
+    </div>
+
+    <div class="project-width">
+        <div class="project-left-side">
+            <h3 style="text-align:left!important">Refresher</h3>
+            <p>Refresher is a fork of the plugin "Refresh All Nodes." The plugin now supports better scanning for the full project. It can detect invalid assets, scan level blueprints, open level blueprints without opening the level, and display progress bars to prevent Unreal from freezing when refreshing large assets. All failed blueprints are displayed in a window where they remain until they are fixed.</p>
+        </div>
+        <div class="project-left-side">
+            <h3 style="text-align:left!important">Documenter</h3>
+            <p>Documenter is a tool that can scan assets and read out their functionality, variables, and comments. With this information, it generates a website that can run locally or be hosted. The tool supports themed HTML files for full customization and is capable of recreating the visuals of blueprint nodes.</p>
+        </div>
+    </div>
+
+    <div class="project-width">
+        <div class="project-left-side">
+            <h3 style="text-align:left!important">Locomotion</h3>
+            <p>Locomotion is an existing plugin in Unreal Engine that blends animations to match movement behavior. My task was to fully convert this logic to C++ and make it more efficient where possible. It also required some customization for the upcoming game.</p>
+        </div>
+    </div>
+
+    <div class="project-width">
+        <h2>Follow the company</h2>
+        <ul class="no-style-list">
+            <li class="link-button">
+                <a href="https://www.linkedin.com/company/pixel-nexus/" target="_blank">
+                    <img class="link-button" src="../../Images/LinkedIn.png" alt="LinkedIn" />
+                </a>
+            </li>
+        </ul>
+    </div>
+</body>
+</html>
