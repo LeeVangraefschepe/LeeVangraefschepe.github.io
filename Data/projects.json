@@ -1,0 +1,469 @@
+{
+  "BallZ": {
+    "key": "BallZ",
+    "priority": 5,
+    "title": "BallZ",
+    "display": "BallZ",
+    "category": "Personal projects",
+    "languages": "Unity - C#",
+    "short_description": "A rushed mobile game where you roll around with a ball",
+    "description": "BallZ is a mobile where you roll around with a ball and avoid obstacles along the way. The movement is controlled with the gyro controls of the mobile phone. The game got rushed because Google wanted to shutdown my developer account on the play store. The game was made while doing fulltime internship.",
+    "icon": "BallZIcon.png",
+    "period": "Creation date: 26 april 2024",
+    "articles": [],
+    "follow": [
+      {
+        "type": "playstore",
+        "URL": "https://play.google.com/store/apps/details?id=com.LEEVGS.BallZ"
+      }
+    ]
+  },
+  "CityCrawlers": {
+    "key": "CityCrawlers",
+    "priority": 1,
+    "title": "City crawlers",
+    "category": "Personal projects",
+    "languages": "Unity - C#",
+    "short_description": "A survival/exploration game made in 3 days for the Kenny Jam 23",
+    "description": "The goal of the game is to survive for as long as possible. Game time is paused when you enter a house. NPCs can be found in houses which can give you items in return of other items. You can find items by exploring the city. You'll need the items from NPCs to heal and get other goodies.",
+    "icon": "CityCrawlersIcon.png",
+    "period": "Creation date: 21 july 2023",
+    "articles": [
+      {
+        "title": "Jamming!",
+        "content": "This project was part of a game jam during a Belgian holiday, one of the rare days off I had from my regular work. Given my limited time on the project, I managed to contribute by developing a scalable zombie system that utilized Unity's pathfinding to track the player when they were in range. However, due to unexpected demands on other systems that required more attention, we couldn't fully harness the potential of the scalable zombie system."
+      }
+    ],
+    "follow": [
+      {
+        "type": "github",
+        "URL": "https://github.com/Wardergrip/kenneyjam23"
+      },
+      {
+        "type": "itch",
+        "URL": "https://wardergrip.itch.io/city-crawlers"
+      }
+    ]
+  },
+  "DontForget": {
+    "key": "DontForget",
+    "priority": 10,
+    "title": "Dont forget",
+    "category": "DAE projects",
+    "languages": "Unity - C#",
+    "short_description": "A singleplayer story game where you discover who you are",
+    "description": "Don’t Forget is a 3D singleplayer story and exploration game inspired by dementia. Recollect your memories by looking for clues and playing brain-stimulating minigames whilst battling the effects of dementia. Explore three different key events of your life to figure out what has happened.",
+    "icon": "DontForgetIcon.png",
+    "period": "Creation date: 30 august 2023",
+    "articles": [
+      {
+        "title": "Hubert Inc.",
+        "content": "This game was made by a team of 6 students for the final group projects course in the bachelor Digital Arts and Entertainment at Hogeschool West-Vlaanderen in Belgium, during the course of 11 weeks."
+      }
+    ],
+    "follow": [
+      {
+        "type": "steam",
+        "URL": "https://store.steampowered.com/app/2775690/Dont_Forget/"
+      }
+    ]
+  },
+  "FragileFrogs": {
+    "key": "FragileFrogs",
+    "priority": 1,
+    "title": "Fragile frogs",
+    "category": "DAE projects",
+    "languages": "Unity - C#",
+    "short_description": "Tower defence game made in 2.5 days for the UNWRAP game jam",
+    "description": "This is a tower defense game with a frog-like theme, created for the UNWRAP game jam. The game's theme revolves around 'fragile.' In this game, players take on the role of frogs tasked with defending their fragile eggs in the water. Once an egg hatches, the froglings can join the battle to protect their siblings in combat.",
+    "icon": "FragileFrogsIcon.png",
+    "period": "Creation date: 14 february 2023",
+    "articles": [
+      {
+        "title": "Jamming!",
+        "content": "This project was a part of a game jam hosted by DAE before the school semester began. Our team consisted of six programmers, so the art style may appear a bit unpolished. My contributions to the project included implementing A* pathfinding for the enemies, creating their behavior, setting up the logic for spawning waves, and developing the player's health system. Additionally, I took on the responsibility of designing and managing the overall game user interface (UI)."
+      }
+    ],
+    "follow": [
+      {
+        "type": "itch",
+        "URL": "https://twanny.itch.io/fragile-frogs"
+      },
+      {
+        "type": "youtube",
+        "URL": "https://youtu.be/uUBv8H_1jec"
+      }
+    ]
+  },
+  "LeapEngine": {
+    "key": "LeapEngine",
+    "priority": 10,
+    "title": "Leap engine",
+    "category": "Active projects",
+    "languages": "CMake - C++",
+    "short_description": "3D based C++ engine made for easy development in pure C++",
+    "description": "All the students struggled with the Overlord engine from our teacher, and I was wondering if there are any good C++-based engines. I know you have Unreal, but that still uses blueprinting and isn’t entirely component-based. So me and <a href='https://www.sanderdekeukelaere.com/' target='_blank'>Sander</a> started the project 'Leap engine'",
+    "icon": "LeapIcon.png",
+    "period": "Creation date: 13 june 2023",
+    "articles": [
+      {
+        "title": "Goal",
+        "content": "The goal for Leap is to develop a robust 3D engine that doesn't expose users to the complexities of managing various libraries. In Overlord, for instance, multiple Vector3 types from different libraries required constant conversions. Additionally, we aim to establish a stable game loop and implement effective crash reporting. This project is still in progress, and you can track its development on GitHub below."
+      }
+    ],
+    "follow": [
+      {
+        "type": "github",
+        "URL": "https://github.com/LeeVangraefschepe/LeapEngine"
+      }
+    ]
+  },
+  "MinecraftTool": {
+    "key": "MinecraftTool",
+    "priority": 0,
+    "title": "Minecraft tool",
+    "display": "Minecraft tool",
+    "category": "DAE projects",
+    "languages": "CMake - C++",
+    "short_description": "Tool for importing json files and exporting it to obj files",
+    "description": "This project was part of a course called ToolDev, where we delved into the concept of developing powerful automated tools. One of the assignments involved creating a Minecraft scene parser that could convert Minecraft scenes into OBJ format. The challenge here was to build both a user interface (UI) and a console application using the same underlying codebase.",
+    "icon": "MinecraftSceneIcon.png",
+    "period": "Creation date: 23 april 2023",
+    "articles": [
+      {
+        "title": "CMake structure",
+        "content": "<img class='centerd-image' style='width: 200%' src='/Images/CMakeStructure.png'/>"
+      }
+    ],
+    "follow": [
+      {
+        "type": "github",
+        "URL": "https://github.com/LeeVangraefschepe/ToolDev-CPP"
+      }
+    ]
+  },
+  "Networking": {
+    "key": "Networking",
+    "priority": 1,
+    "title": "Networking",
+    "display": "Networking",
+    "category": "Personal projects",
+    "languages": "C++",
+    "short_description": "Exploring WinSock in C++ for game loop integration",
+    "description": "This project is made in <b>Visual Studio</b> and does not use any external library. It uses the <b>win32 sockets</b> to startup a network connection. The goal for this project is to integrate this into a game/gameloop and solidify networking without a big hit in .exe size or dlls that have to be included.",
+    "icon": "NetworkingIcon.png",
+    "period": "Creation date: 8 april 2023",
+    "articles": [
+      {
+        "title": "How does it work",
+        "content": "The networking uses selfwriten binary packets and at the moment only supports TCP connections. The library uses a queue to handle the issue of multithreading so incoming packets can be handeld on the main thread if needed. Currently 2 threads are created and used for handeling packets and handeling incoming connections. On the github page there is a well documented explenation on how it works and how you can use it. There is a example project that uses the networking as a chatting app."
+      }
+    ],
+    "follow": [
+      {
+        "type": "github",
+        "URL": "https://github.com/LeeVangraefschepe/CPP-Networking"
+      }
+    ]
+  },
+  "NMBSTracker": {
+    "key": "NMBSTracker",
+    "priority": 10,
+    "title": "NMBS Tracker",
+    "display": "NMBS Tracker",
+    "category": "Personal projects",
+    "languages": "C#",
+    "short_description": "A windows forms app that tracks your train department time",
+    "description": "NMBS Tracker pushes Windows notifications when your train starts delaying or if it is cancelled.<br><br>This is tool has been brought to life because it increases your workflow if you take the train. You no longer have to worry if your train is still going or if you can work a little longer because of the delay.",
+    "icon": "NMBSTrackerIcon.png",
+    "period": "Creation date: 29 april 2024",
+    "articles": [],
+    "follow": [
+      {
+        "type": "github",
+        "URL": "https://github.com/LeeVangraefschepe/NMBSTracker"
+      }
+    ]
+  },
+  "Internship": {
+    "key": "Internship",
+    "priority": 10,
+    "title": "Internship (Pixel-Nexus)",
+    "display": "Internship",
+    "category": "DAE projects",
+    "languages": "Unreal - C++ - Web - Python",
+    "short_description": "Creating tools for unreal engine (game) development",
+    "description": "Pixel-Nexus aims to become your technical hub to provide solutions tailormade to your needs, leaving you to create your vision without technical hassle and focus on your core business.",
+    "icon": "PixelNexusIcon.png",
+    "period": "Internship: 2024 (18 weeks)",
+    "articles": [
+      {
+        "title": "What did you do",
+        "content": "I worked on five different projects during my internship, all related to plugin integration for Unreal Engine. I had the freedom to choose what I could do, which motivated me greatly to exceed my expectations and go above and beyond when designing coding systems."
+      },
+      {
+        "title": "",
+        "content": ""
+      },
+      {
+        "title": "",
+        "content": "<img class='centerd-image' style='width: 200%' src='/Images/Timeline internship.png'/>"
+      },
+      {
+        "title": "",
+        "content": ""
+      },
+      {
+        "title": "Quest system",
+        "content": "There was already an existing quest system, but it worked completely differently from the one I created. I had to create a new quest system on top of the old one, which still needed to be supported and marked as deprecated. The major differences with the new system are that the quest structure has changed, data assets are used to create quest links, and typing is done with deriving instead of enum types."
+      },
+      {
+        "title": "Python",
+        "content": "My supervisor asked me if I could hook into the event triggered when committing something in version control. After that, he asked if I could create some scripts to verify the changes in plugins before committing."
+      },
+      {
+        "title": "Refresher",
+        "content": "Refresher is a fork of the plugin 'Refresh All Nodes.' The plugin now supports better scanning for the full project. It can detect invalid assets, scan level blueprints, open level blueprints without opening the level, and display progress bars to prevent Unreal from freezing when refreshing large assets. All failed blueprints are displayed in a window where they remain until they are fixed."
+      },
+      {
+        "title": "Documenter",
+        "content": "Documenter is a tool that can scan assets and read out their functionality, variables, and comments. With this information, it generates a website that can run locally or be hosted. The tool supports themed HTML files for full customization and is capable of recreating the visuals of blueprint nodes."
+      },
+      {
+        "title": "Locomotion",
+        "content": "Locomotion is an existing plugin in Unreal Engine that blends animations to match movement behavior. My task was to fully convert this logic to C++ and make it more efficient where possible. It also required some customization for the upcoming game."
+      }
+    ],
+    "follow": [
+      {
+        "type": "linkedin",
+        "URL": "https://www.linkedin.com/company/pixel-nexus/"
+      }
+    ]
+  },
+  "RollinRascals": {
+    "key": "RollinRascals",
+    "priority": 0,
+    "title": "Rollin' rascals",
+    "category": "DAE projects",
+    "languages": "Unity - C#",
+    "short_description": "A couch co-op game where you race against other players",
+    "description": "Step into the adorable world of our game, where you become a baby racing inside a hamster ball. The road ahead is full of obstacles that you need to overcome if you want to stay on the track above the clouds.",
+    "icon": "RollinRascalsIcon.png",
+    "period": "Creation date: 1 march 2023",
+    "articles": [
+      {
+        "title": "Game projects",
+        "content": "This course marked our initial experience working as a team, which involved creating schedules and estimating tasks. Our team dynamic consisted of one programmer (myself), three artists, and one sound designer. Consequently, all the game logic you encounter in the project was developed by me, with the exception of audio-related aspects. The course required a commitment of 10 hours per week and spanned 11 weeks in total."
+      }
+    ],
+    "follow": [
+      {
+        "type": "itch",
+        "URL": "https://famked.itch.io/rollin-rascals"
+      },
+      {
+        "type": "youtube",
+        "URL": "https://youtu.be/Gr2ar94Lphc"
+      }
+    ]
+  },
+  "RunescapeTool": {
+    "key": "RunescapeTool",
+    "priority": 1,
+    "title": "Runescape tool",
+    "display": "RS3 tool",
+    "category": "DAE projects",
+    "languages": "C#",
+    "short_description": "Search for items via the Runescape API and check thee current prices",
+    "description": "The RuneScape tool is designed to systematically examine all RuneScape items, checking their current prices and price changes. Users have the option to switch between two modes: online and offline. Online mode provides live data directly from the API, while offline mode offers a copy of the data retrieved from the API.",
+    "icon": "RunescapeIcon.png",
+    "period": "Creation date: 20 march 2023",
+    "articles": [],
+    "follow": [
+      {
+        "type": "github",
+        "URL": "https://github.com/HowestDAE/proj-LeeVangraefschepe"
+      }
+    ]
+  },
+  "TheCityOfExile": {
+    "key": "TheCityOfExile",
+    "priority": 1,
+    "title": "The city of exile",
+    "display": "The city of exile",
+    "category": "DAE projects",
+    "languages": "Unity - C#",
+    "short_description": "A dungeon runner project with a focus on testing basic Unity features and implementing basic storytelling elements",
+    "description": "The 'City of Exile' was a project for a course at DAE, where participants were given two keywords and tasked with creating a game based on them. This game features a leveling system across various skills and immerses players in a story where they have been banished from their city. It adopts a dungeon runner style gameplay.",
+    "icon": "TheCityOfExileIcon.png",
+    "period": "Creation date: 26 september 2022",
+    "articles": [],
+    "follow": [
+      {
+        "type": "youtube",
+        "URL": "https://youtu.be/qUM9gbM8EOQ"
+      }
+    ]
+  },
+  "TheWorldFactory": {
+    "key": "TheWorldFactory",
+    "priority": 1,
+    "title": "The world factory",
+    "display": "The world factory",
+    "category": "DAE projects",
+    "languages": "Unreal - C++",
+    "short_description": "A resource collector/manager game with focus on testing unreal features and implementing basic components in C++",
+    "description": "The world factory was a project for a course at DAE, where participants were given two keywords and tasked with creating a game based on them. This game features resource collection and energy management at night. When its night “zombies” spawn around various of resource nodes. So be aware at night. You can toggle the machines if they are allowed to work at night. Its only when its night that you consume energy from your generator.",
+    "icon": "TheWorldFactoryIcon.png",
+    "period": "Creation date: 26 september 2022",
+    "articles": [
+      {
+        "title": "Watch the project",
+        "content": "<img style='object-fit:contain; width:100%' src='/Images/TheWorldFactory/Screenshots (1).png'/>"
+      },
+      {
+        "title": "",
+        "content": "<img style='object-fit:contain; width:100%' src='/Images/TheWorldFactory/Screenshots (3).png'/>"
+      },
+      {
+        "title": "",
+        "content": "<img style='object-fit:contain; width:100%' src='/Images/TheWorldFactory/Screenshots (4).png'/>"
+      },
+      {
+        "title": "",
+        "content": "<img style='object-fit:contain; width:100%' src='/Images/TheWorldFactory/Screenshots (5).png'/>"
+      }
+    ],
+    "follow": []
+  },
+  "TronBattleTanks": {
+    "key": "TronBattleTanks",
+    "priority": 5,
+    "title": "Tron battle tanks",
+    "display": "Tron battle tanks",
+    "category": "DAE projects",
+    "languages": "C++",
+    "short_description": "Written in bare C++ using Visual Studio for linking external libraries with a self written engine around it where a lot of coding patterns are applied",
+    "description": "Tron battle tanks is fully made in a self-written engine in the language C++. It uses SDL for rendering and sound, ImGui for debugging purpose and glm for math and vectors. It currently has over 1000 views on github and close to 1000 clones.",
+    "icon": "TronBattleTanksIcon.png",
+    "period": "Creation date: 22 february 2023",
+    "articles": [
+      {
+        "title": "Game engine features",
+        "content": "<ul style='list-style:circle'> <li>Scene management</li> <li>Sprite and text rendering</li> <li>Subject & observer</li> <li>GameObjects</li> <li>Multithreaded audio</li> <li>Overlapping physics</li> <li>Command system</li> <li>Controller & keyboard input</li> </ul>"
+      },
+      {
+        "title": "Used patterns",
+        "content": "<ul style='list-style:circle'> <li>Game loop</li> <li>Component (composition)</li> <li>Update method (destoying objects in update works)</li> <li>Dirty flag</li> <li>Singleton & Service locator</li> <li>Command</li> <li>Observer</li> <li>Mutlithreading (locks & queue)</li> </ul>"
+      }
+    ],
+    "follow": [
+      {
+        "type": "github",
+        "URL": "https://github.com/LeeVangraefschepe/Programming4-Engine"
+      }
+    ]
+  },
+  "Unturned": {
+    "key": "Unturned",
+    "priority": 3,
+    "title": "Unturned",
+    "category": "DAE projects",
+    "languages": "C++ - DX11",
+    "short_description": "Basic zombie game where you collect loot and try to survive in the Unturned art style",
+    "description": "My approach to the Unturned Survival Edition focused on the game's style and zombie spawning mechanics. In this version, zombies only spawn during the night, placing the onus on players to survive and avoid starving to death.",
+    "icon": "UnturnedIcon.png",
+    "period": "Creation date: 16 april 2023",
+    "articles": [
+      {
+        "title": "What does it have?",
+        "content": "The game was developed using the Overlord engine, generously provided by one of our teachers as a tool for teaching graphics programming in DirectX. However, the engine had certain limitations that inspired students to take on the challenge of creating their own engine. Despite these limitations, the Overlord engine boasted essential features like shadows, post-processing, and sprite rendering. It even facilitated map creation by allowing the import of scenes from Unity into the Overlord engine. Additionally, the ability to reload the map during runtime provided a valuable advantage."
+      }
+    ],
+    "follow": [
+      {
+        "type": "github",
+        "URL": "https://github.com/LeeVangraefschepe/GP2-Unturned"
+      }
+    ]
+  },
+  "Vintecc": {
+    "key": "Vintecc",
+    "priority": 10,
+    "title": "Vintecc",
+    "category": "Personal projects",
+    "languages": "Unity - C#",
+    "short_description": "Exploring, porting, limit testing different physics engines and integrating them into Unity",
+    "description": "Vintecc is a software company that focuses on machine software with an expertise in vision, robotics and controls. We solve the major challenge of managing machines on a larger scale with our own developed machine management framework, which makes use of high-end technology such as Digital Twins, Big data, Artificial Intelligence, Web-based Interfaces and hardware independent software.",
+    "icon": "VinteccIcon.png",
+    "period": "Student job: 2022 (3 weeks), 2023 (8 weeks), 2024 (8 weeks)",
+    "articles": [
+      {
+        "title": "2024",
+        "content": "In the third year, I explored and implemented a communication system between Algoryx Momentum and Unity, while also setting up a realistic scene in both Momentum and Unity for the client."
+      },
+      {
+        "title": "2023",
+        "content": "The second year involved exploring and conducting limit tests on various physics engines. The goal was to explore alternative physics options, and my role was to test and verify if they met our expectations. I worked with Mujoco and Havok, thoroughly testing both options, each with its own set of pros and cons. Unfortunately, I am unable to share any results due to legal restrictions."
+      },
+      {
+        "title": "2022",
+        "content": "My first year at Vintecc involved creating a program that facilitated data communication between C++, C++, or Python, utilizing shared memory and local networking. During this time, I conducted extensive benchmarking to determine if it could potentially replace the current system."
+      }
+    ],
+    "follow": [
+      {
+        "type": "linkedin",
+        "URL": "https://www.linkedin.com/company/vintecc/"
+      }
+    ]
+  },
+  "Voteplayer": {
+    "key": "Voteplayer",
+    "priority": 2,
+    "title": "Voteplayer",
+    "display": "Voteplayer",
+    "category": "Personal projects",
+    "languages": "Unity - C#",
+    "short_description": "A dual program that works on Android and Windows enabling song voting for Spotify & local songs at parties with dev style animations",
+    "description": "Voteplayer started as a solution for a local party I was having. We were with 10+ people but everyone had somewhat different music taste. So, we made a playlist together and you could vote on your phone for the next song. This project has been evolving for over a year of little development. The code is outdated and unscalable at this moment and is being rewritten to become <a href='BaseProject.html?key=Voteplayer2'>Voteplayer 2.</a>",
+    "icon": "Vinyl.png",
+    "period": "Creation date: 22 january 2022",
+    "articles": [
+      {
+        "title": "How does it work",
+        "content": "First, you set up a playlist on Spotify or locally. Once those are loaded, you simply start the player, and it will begin playing automatically. When you port forward the correct port, the users on their phones will be able to connect with their phones."
+      }
+    ],
+    "follow": [
+      {
+        "type": "github",
+        "URL": "https://github.com/LeeVangraefschepe/Voteplayer"
+      }
+    ]
+  },
+  "Voteplayer2": {
+    "key": "Voteplayer2",
+    "priority": 1,
+    "title": "Voteplayer 2",
+    "category": "Active projects",
+    "languages": "Unity - C#",
+    "short_description": "Reworked version of Voteplayer with the vision on enabling 3D visualizations and official support from Spotify",
+    "description": "I plan to release <a href='BaseProject.html?key=Voteplayer'>VotePlayer</a> to the public, utilizing the Spotify API. The project required some rework, leading to the existence of VotePlayer 2. With this project, my goal is to obtain approval from Spotify to integrate it for everyone to use.",
+    "icon": "Voteplayer2Icon.png",
+    "period": "Creation date: 5 september 2023",
+    "articles": [
+      {
+        "title": "",
+        "content": "The project will not be open sourced and currently has not platform to share anything about."
+      }
+    ],
+    "follow": [
+      {
+        "type": "github",
+        "URL": "https://github.com/LeeVangraefschepe/Voteplayer"
+      }
+    ]
+  }
+}

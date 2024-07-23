@@ -15,6 +15,35 @@
     height: auto;
 }
 
+.project-page-image {
+    object-fit: contain;
+    width: 100%
+}
+
+.follow-section{
+    float:left;
+    padding: 50px 0px;
+}
+
+.articles-section {
+    float: left;
+    width: 100%;
+}
+
+.articles-group {
+    float: left;
+    width: 100%;
+}
+
+.articles-section h3 {
+    text-align: left !important;
+}
+
+article {
+    float: left;
+    width: 50%;
+}
+
 .project-overlay {
     position: absolute;
     top: 0;

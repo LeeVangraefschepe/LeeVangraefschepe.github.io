@@ -7,10 +7,13 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
     <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
-    <link href="../../Style/HubStyle.css" rel="stylesheet" />
-    <link href="../../Style/Portfolio.css" rel="stylesheet" />
-    <link href="../../Style/Project.css" rel="stylesheet" />
+    <link href="/Style/HubStyle.css" rel="stylesheet" />
+    <link href="/Style/Portfolio.css" rel="stylesheet" />
+    <link href="/Style/Project.css" rel="stylesheet" />
     <link rel="icon" type="image/x-icon" href="/Images/LEEVGS.ico">
+    <script src="/Scripts/ProjectGeneration.js"></script>
+    <script src="/Scripts/ProjectMeta.js"></script>
+
 </head>
 <body>
     <nav class="navbar navbar-expand-xl sticky-top bg-dark">
@@ -22,8 +25,8 @@
                 <li class="nav-item">
                     <a class="nav-link" href="/Web/Index.html">Home</a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link selected-title" href="/Web/Projects.html">Projects</a>
+                <li class="nav-item selected-title">
+                    <a class="nav-link" href="/Web/Projects.html">Projects</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="/Web/AboutMe.html">About me</a>
@@ -31,21 +34,7 @@
             </ul>
         </div>
     </nav>
-    <h1 style="margin-bottom:100px!important">Voteplayer 2</h1>
-    <div class="project-width">
-        <div class="project-left-side">
-            <img style="object-fit:contain; width:100%" src="../../Images/Voteplayer2Icon.png">
-            <p>Creation date: 5 september 2023</p>
-        </div>
-        <div class="project-right-side">
-            <h2 style="margin-top:0px">Short description</h2>
-            <p>I plan to release <a href="Voteplayer.html">VotePlayer</a> to the public, utilizing the Spotify API. The project required some rework, leading to the existence of VotePlayer 2. With this project, my goal is to obtain approval from Spotify to integrate it for everyone to use.</p>
-        </div>
-    </div>
 
-    <div class="project-width">
-        <h2>Follow the project</h2>
-        <p>The project will not be open sourced and currently has not platform to share anything about.</p>
-    </div>
+    <div id="Content" style="width: 100%; padding: 0% 10% 0% 10%; float:left;"></div>
 </body>
 </html>
