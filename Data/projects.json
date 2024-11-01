@@ -400,8 +400,12 @@
     "period": "Student job: 2022 (3 weeks), 2023 (8 weeks), 2024 (8 weeks)",
     "articles": [
       {
+        "title": "Present",
+        "content": "After my last summer job (2024), I knew I wanted to continue this journey, so I applied to work there and got accepted! :)"
+      },
+      {
         "title": "2024",
-        "content": "In the third year, I explored and implemented a communication system between Algoryx Momentum and Unity, while also setting up a realistic scene in both Momentum and Unity for the client."
+        "content": "In the third year, I worked directly for a client. He wanted a realistic simulation involving dirt that sticks towards potatoes. I developed a prototype in multiple physics engines and documented the positive and negative points of each engine."
       },
       {
         "title": "2023",
